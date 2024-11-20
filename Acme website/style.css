@@ -299,24 +299,28 @@ a:hover {
     padding-top: 20px;
 
     h2 {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-size: 29px;
     }
   }
 
+  .hero .list-items ul {
+    gap: 25px;
+  }
+
   .section {
-    height: 35vh;
+    height: 30vh;
   }
 
   .section-text {
     padding: 20px 0;
 
     h1 {
-      font-size: 33px;
+      font-size: 25px;
     }
 
     p {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
 
