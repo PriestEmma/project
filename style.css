@@ -141,6 +141,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
 }
 
 .navbar .main-menu-list {
@@ -159,21 +160,24 @@ img {
 }
 
 .navbar i {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
 .navbar img {
   width: 81px;
-  height: 32px;
+  height: 25px;
 }
 
 /* The Icon When Clicked */
 
 i:active {
+  transform: scaleX(0.5);
+}
+
+.mobile-menu-toggle:hover {
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.9);
-  transform: scale(0.8);
 }
 
 /* Mobile Navigation */
