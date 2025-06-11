@@ -762,6 +762,11 @@ i:active {
   .footer {
     padding: 0.5rem 1rem;
   }
+
+  .details .details-flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 576px) {
@@ -789,12 +794,17 @@ i:active {
   .stats .stats-numbers {
     flex-direction: column;
   }
-}
 
-.newsletter h2 {
-  font-size: 1.5rem;
-}
+  .newsletter h2 {
+    font-size: 1.5rem;
+  }
 
-.newsletter p {
-  display: none;
+  .newsletter p {
+    display: none;
+  }
+
+  .details .details-flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
