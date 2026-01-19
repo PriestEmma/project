@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #7f8fa4, #3b4a6b);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .input {
@@ -105,6 +108,11 @@ h1 {
     width: 100%;
     height: 100%;
     display: flex;
+  }
+
+  .input {
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   .btn {
