@@ -7,17 +7,28 @@
 body,
 html {
   font-family: 'Arial', sans-serif;
+  /* background: linear-gradient(135deg, #7f8fa4, #3b4a6b);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+}
+
+.header {
   background: linear-gradient(135deg, #7f8fa4, #3b4a6b);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 10px;
+  height: 100%;
+  margin: 70px auto;
+  max-width: 900px;
 }
 
 .input {
   resize: none;
   width: 100%;
-  height: 250px;
+  height: 100%;
   outline: none;
-  font-size: 200px;
+  font-size: 10rem;
   text-align: center;
   border: 1px solid #c7d2fe;
   overflow-y: hidden;
@@ -56,12 +67,6 @@ html {
   to {
     background: #22c55e;
   }
-}
-
-.header {
-  max-width: 900px;
-  margin: 70px auto;
-  padding: 30px;
 }
 
 .flex {
@@ -110,9 +115,15 @@ h1 {
     display: flex;
   }
 
+  .header {
+    margin: 0px auto;
+    padding: 15px;
+  }
+
   .input {
-    font-size: 2.5rem;
+    font-size: 5.3rem;
     text-align: center;
+    height: 25vh;
   }
 
   .btn {
